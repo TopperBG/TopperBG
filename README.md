@@ -12,8 +12,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 <img alt="Metrics" src="https://metrics.lecoq.io/TopperBG?template=classic&config.timezone=Europe%2FSofia"/>
+![Metrics](/github-metrics.svg)
 -->
 
-<img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=TopperBG"/>  
+<img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=TopperBG"/>
 
-![Metrics](/github-metrics.svg)
+![Metrics](/metrics.base.svg)
