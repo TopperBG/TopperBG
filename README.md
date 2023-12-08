@@ -11,8 +11,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+<img alt="Metrics" src="https://metrics.lecoq.io/TopperBG?template=classic&config.timezone=Europe%2FSofia"/>
 -->
 
 <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=TopperBG"/>  
-<img alt="Metrics" src="https://metrics.lecoq.io/TopperBG?template=classic&config.timezone=Europe%2FSofia"/>
-![Metrics](https://metrics.lecoq.io/TopperBG?template=classic&base.indepth=true&repositories=1&achievements=1&notable=1&activity=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=true&base.hireable=false&base.skip=false&repositories.batch=100&repositories.forks=false&repositories.affiliations=owner&repositories=false&repositories.pinned=0&repositories.starred=0&repositories.random=0&repositories.order=featured%2C%20pinned%2C%20starred%2C%20random&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&notable=false&notable.from=all&notable.repositories=false&notable.indepth=false&notable.types=commit&notable.self=true&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&config.timezone=Europe%2FSofia)
+
+<picture>
+  <img src="https://raw.githubusercontent.com/TopperBG/metrics/master/github-metrics.svg" alt="Metrics">
+</picture>
