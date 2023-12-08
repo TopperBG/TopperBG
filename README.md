@@ -16,6 +16,4 @@ Here are some ideas to get you started:
 
 <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=TopperBG"/>  
 
-<picture>
-  <img src="https://raw.githubusercontent.com/TopperBG/metrics/master/github-metrics.svg" alt="Metrics">
-</picture>
+![Metrics](/github-metrics.svg)
