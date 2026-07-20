@@ -1,35 +1,47 @@
-name: Metrics
+name: GitHub Profile Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  schedule:
+    - cron: "17 2 * * *"
+
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/main.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-metrics
+  cancel-in-progress: true
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 10
+
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - name: Generate profile metrics
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+
+          user: TopperBG
           filename: metrics.base.svg
+
           base: header, activity, community, repositories, metadata
           repositories_forks: yes
-          plugin_achievements: yes
-          # plugin_achievements_only: >-
-          #   polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-          #   scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: X
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          # plugin_activity_filter: issue, pr, release, fork, review, ref/create
-          plugin_activity_filter: all
-          # Misc  
+
           config_timezone: Europe/Sofia
+
+          plugin_activity: yes
+          plugin_activity_limit: 8
+          plugin_activity_days: 30
+          plugin_activity_filter: all
+
           plugin_stars: yes
           plugin_stars_limit: 5
