@@ -17,4 +17,7 @@ Here are some ideas to get you started:
 
 <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=TopperBG"/>
 
-![Metrics](/metrics.base.svg)
+<!-- ![Metrics](/metrics.base.svg) -->
+![GitHub metrics](./metrics.base.svg)
+
+![Recent activity](./metrics.activity.svg)
